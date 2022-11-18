@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html {
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(65, 64, 66);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #0a7dd6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 100;
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.button-section {
+    background-color: rgb(11, 125, 214);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.subbutton-section {
+    background-color: transparent;
+    color: rgb(11, 125, 214);
+    border: none;
+    border-bottom: 2px solid rgb(11, 125, 214);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+}
+
+/* Barra menú */
+
+.header-menu {
+    display: none;
+}
+
+/* Section submenú */
+
+.logo-netafim-header img {
+    width: 100px;
+}
+
+.header-submenu {
+    margin-block-start: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.header-submenu-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    margin-right: 2vw;
+    align-items: center;
+    text-align: center;
+}
+
+.header-submenu-div-menu div {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid rgb(11, 125, 214);
+    border-left: 1px solid rgb(11, 125, 214);
+}
+
+.header-submenu-div-menu div a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(65, 64, 66);
+}
+
+.header-submenu-div-menu div:last-child {
+    border-right: 0px;
+}
+
+.header-submenu-div-menu div:first-child {
+    border-left: 0px;
+}
+
+/* Section Video Principal*/
+
+.header-video {
+    max-height: 860px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-video-width {
+    width: 100%;
+    height: auto;
+}
+
+.header-video video {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+}
+
+/* Text overvideo */
+
+.text-overvideo {
+    display: none;
+}
+
+.text-overvideo-mobile {
+    display: block;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.text-overvideo-mobile h1 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 120%;
+    color: #414042;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text-overvideo-mobile p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+/* Primera sección*/
+
+.firts-section div {
+    width: unset;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.firts-section div p {
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+/* Crop knowledge sharing */
+
+.section-cropknowledge-div p {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Section You’ll never turn a valve again */
+
+.section-valve {
+    flex-direction: column-reverse;
+}
+
+.section-valve-div-img {
+    width: 100%;
+}
+
+.section-valve-div-text {
+    width: 100%;
+}
+
+.section-valve-div-text-margins {
+    margin: 2vw;
+}
+
+.section-valve-div-text-margins h2,
+p {
+    padding: 0%;
+}
+
+.section-valve-div-text-margins p {
+    padding-bottom: 30px;
+}
+
+.section-valve-div-text-margins button {
+    margin-bottom: 30px;
+}
+
+/* Section Sustainability means profitability */
+
+.section-sustainability {
+    display: block;
+    background-color: rgb(233, 233, 233);
+}
+
+.section-sustainability-div-text {
+    width: 100%;
+}
+
+.section-sustainability-div-text-margins {
+    margin: 40px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.section-sustainability-div-text-margins h1 {
+    padding-top: 40px;
+}
+
+.section-sustainability-logos {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section-sustainability-div-text-margins img {
+    width: 100%;
+}
+
+.section-valve-div-video {
+    width: 100%;
+}
+
+/* Section Precision irrigation solutions */
+
+.section-irrigation-solutions-grey {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+/* Section Growers stories */
+
+.section-grower-stories-box-text p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.section-grower-stories-video {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+}
+
+.section-grower-stories-background {
+    background-color: rgb(233, 233, 233);
+}
+
+/* Section What's new */
+
+.section-whats-new-distribution {
+    display: block;
+}
+
+.section-whats-new-distribution-contents {
+    width: 100%;
+}
+
+.section-whats-new-distribution-objects {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    min-height: min-content;
+    flex-direction: column;
+}
+
+.section-whats-new-distribution-objects-image-e {
+    width: 95%;
+}
+
+.section-whats-new-distribution-objects-image {
+    width: 95%;
+}
+
+.section-whats-new-distribution-objects-image-e img {
+    width: 100%;
+}
+
+.section-whats-new-distribution-objects-image img {
+    width: 100%;
+}
+
+.date-news-section {
+    padding-top: 20px;
+}
+
+.section-whats-new-distribution-margins button {
+    margin-bottom: 40px;
+}
+
+/* Firts footer section */
+
+
+.distribution-submenu-footer-div {
+    width: 30%;
+}
+
+.mobile-footer {
+    display: block;
+}
+
+.desktop-footer {
+    display: none;
+}
+
+footer {
+    font-size: 14px;
+    background-color: rgb(65, 64, 66);
+    padding: 30px 15px;
+    color: #fff;
+    overflow: hidden;
+}
+
+footer img:first-child {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.orbia {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.orbia span {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+
+footer li {
+    margin-bottom: 5px;
+}
+
+.orbia li {
+    padding: 2px;
+}
+
+.orbia li:first-child {
+    margin-left: 12px;
+}
+
+.social-media-icons li {
+    display: inline;
+}
+
+.sub-footer {
+    width: 100%;
+    background-color: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    margin: 30px -30px -30px -30px;
+}
+
+.sub-footer a {
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
